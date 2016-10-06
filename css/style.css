@@ -1,0 +1,138 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+body{
+	height: 100%;
+	background: #F6F6F6;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #333;
+    padding:0 20px 0 20px;
+}
+
+ul li{
+	float: left;
+	width: 50px;
+	height: 50px;
+	text-align: center;	
+}
+ul li img{
+	width: 40px;
+	height:40px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+li:hover{
+	cursor: pointer;
+
+}
+header{
+	min-height: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #fafafa;
+    text-align: center;
+    background-image: linear-gradient(to bottom,#fff,#f2f2f2);
+    background-repeat: repeat-x;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+    line-height: 40px;
+    margin-bottom: 1%;
+}
+h1{
+	display: inline-block;
+	float: left;
+    margin-left: -10px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #777;
+    text-shadow: 0 1px 0 #fff;
+}
+.beta {
+    background: #999999;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: block;
+    font-style: italic;
+    float: left;
+    font-size: 12px;
+    line-height: 1;
+    margin: 13px 0 0 -14px;
+    padding: 2px 5px;
+}
+
+.content{
+	width: 100%;
+	height: 66.66666%;
+}
+canvas{
+	display: block;
+	margin: 0 auto;
+	background: #fff;
+	cursor: default;
+}
+
+.tool_bar{
+	width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    padding:5px;
+	background:#eee;
+	border: 1px solid #d4d4d4;
+	border-radius: 10px;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+}
+.tool{
+	margin: auto;
+	height: 50%;
+}
+.tool li{
+	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+	margin-left: 10px;
+}
+.tool-panel{
+	margin-top:10px;
+	height: 50%;
+}
+.tool-panel li{
+	margin-left: 5px;
+}
+.color li{
+	width: 30px;
+	height: 30px;
+}
+.line li{
+	width: 50px;
+	height: 12px;
+	margin-right: 5px;
+}
+.line img{
+	width: 50px;
+	height: 12px;
+	margin: 0;
+}
+
+.red{background:red}
+.green{background:green}
+.blue{background:blue}
+.yellow{background:yellow}
+.white{background:white}
+.black{background:black}
+.pink{background:#FF00FF}
+.purple{background:purple}
+.cyan{background:#8EE5EE}
+.orange{background:orange}
+
+footer{
+	margin: 0 auto;
+	width: 900px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}

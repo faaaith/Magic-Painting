@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Magic Painting</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body> 
+	<header>
+		<h1>Magic Painting</h1>
+		<em class="beta" title="Beta版">Beta</em>
+	</header>
+	<article>
+		<section>
+			<div class="content">
+				<canvas id="canvas" width="1326" height="405"></canvas>
+			</div>
+		</section>
+		<div class="tool_bar">
+			<div class="tool">
+				<ul class="tools">
+				 	<li id="brush"><img src="images/Brush.png" /></li>
+					<li id="eraser"><img src="images/Eraser.png" /></li>
+					<li id="text"><img src="images/Text.png"/></li>
+					<li id="line" ><img src="images/line.png" /></li>
+					<li id="arc" ><img src="images/arc.png" /></li>
+					<li id="rect" ><img src="images/rect.png" /></li>
+					<li id="poly" ><img src="images/poly.png" /></li>
+					<li id="arcfill"><img src="images/arcfill.png" /></li>
+					<li id="rectfill" ><img src="images/rectfill.png" /></li>
+				</ul>
+			</div>
+			<div class="tool-panel">
+				<ul class="color">
+					<li class="red"></li>
+					<li class="green"></li>
+					<li class="blue"></li>
+					<li class="yellow"></li>
+					<li class="white"></li>
+					<li class="black"></li>
+					<li class="pink"></li>
+					<li class="purple"></li>
+					<li class="cyan"></li>
+					<li class="orange"></li>
+				</ul>
+				<ul class="line">
+					<li class="line1">
+						<img class="line1" src="images/line1px.png" />
+					</li>
+					<li class="line3">
+						<img class="line3" src="images/line3px.png" />
+					</li>
+					<li class="line5">
+						<img class="line5" src="images/line5px.png" />
+					</li>
+					<li class="line8">
+						<img class="line8" src="images/line8px.png" />
+					</li>
+				</ul>
+				<button id="clearPic">清除画布</button>
+			</div>
+		</div>
+	</article>
+	<footer>
+		<small>Powered by <a href="faaaith.github.io" target="_blank">Faaaith</a></small>
+	</footer>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
